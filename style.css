@@ -409,6 +409,7 @@ div.znr-checkbox-cont li {
     color: #293239;
     font-size: 14px;
     border: 0;
+    margin-top: 40px;
 }
 
 table.report td {
@@ -807,7 +808,7 @@ td strong a:hover {
 
 
 
-.FEEDBACK FORMZ {
+.FEEDBACK FORM {
 }
 
 .formControl {
@@ -861,4 +862,6 @@ form#feedbackForm legend {
 
 
 
-#pushchange {}
+
+
+
