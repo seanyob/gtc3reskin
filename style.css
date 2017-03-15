@@ -798,3 +798,62 @@ td strong a:hover {
 .sf-menu li ul li.hasIcon a {
     text-indent: 0px;
 }
+
+
+
+
+
+
+
+
+
+.FEEDBACK FORM {
+}
+
+.formControl {
+    background: #fff;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    font-style: regular;
+    padding: 0 0 0 0;
+    text-indent; 30px;
+    }
+    
+.formTitle {
+    background-color: #2D8ED9;
+    border-bottom: none;
+    border-radius: 0px;
+    color: #fff;
+    font-size: 24px;
+    text-shadow: none;
+    padding: 16px;
+}
+
+.feedbackInstructions {
+    color: #293239;
+    font-weight: 400;
+    padding: 10px 40px 10px 40px;
+    }
+    
+.formBody {
+    padding:0 40px 0 40px;
+}
+
+form#feedbackForm fieldset {
+    border: none;
+    border-bottom: 1px solid #E2E4E6;
+    border-radius: 0px;
+    margin: 16px 0 8px 0;
+    padding-bottom: 16px;
+
+}
+
+form#feedbackForm legend {
+    background: none;
+    color: #293239;
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 16px;
+}
+
+
