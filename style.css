@@ -4,11 +4,6 @@
     overflow: hidden;
 }
 
-#main {
-    margin: 0px;
-    background-color: #5B6770;
-}
-
 #pagebody {
     margin: 0px;
     padding: 0px;
@@ -474,8 +469,11 @@ input[disabled] {
 }
 
 input {
-    font-family: 'Open Sans', sans-serif;
+    border: none;
+    border-bottom: 1px solid #293239;
+    color: #293239;
     font-size: 14px;
+    width: 50%;
 }
 
 input[type="submit"]:hover {
@@ -543,8 +541,7 @@ td.innerFormTableCell strong {
 }
 
 select {
-    font-size: 14px;
-    font-family: 'Open Sans', sans-serif;
+    width: 50%;
 }
 
 #audit-report-fixs {
@@ -587,12 +584,6 @@ td strong a:hover {
 .logoHeader {
     width: 340px;
     height: 100%;
-}
-
-#logoDetails {
-    width: auto;
-    padding: 20px 40px;
-    font-size: 14px;
 }
 
 #logoDetails div {
@@ -733,6 +724,7 @@ td strong a:hover {
 .formControl {
     background: #fff;
     border: none;
+    border-radius: 0px;
     font-family: 'Open Sans', sans-serif;
     font-style: regular;
     padding: 0 0 0 0;
@@ -740,6 +732,7 @@ td strong a:hover {
 
 .formTitle {
     background-color: #2D8ED9;
+    background-image: none;
     border-bottom: none;
     border-radius: 0px;
     color: #fff;
@@ -753,7 +746,8 @@ td strong a:hover {
     color: #293239;
     font-weight: 400;
     margin: 0;
-    padding: 10px 40px 10px 40px;
+    padding: 20px 40px 0px 40px;
+    width: 50%;
 }
 
 .formBody {
@@ -769,8 +763,8 @@ form#feedbackForm fieldset {
     border: none;
     border-bottom: 1px solid #E2E4E6;
     border-radius: 0px;
-    margin: 16px 0 8px 0;
-    padding-bottom: 16px;
+    margin: 24px 0 8px 0;
+    padding-bottom: 32px;
     width: calc(100% - 72px);
 }
 
@@ -779,10 +773,76 @@ form#feedbackForm legend {
     color: #293239;
     font-size: 16px;
     font-weight: 300;
-    margin-bottom: 16px;
+}
+
+dt {
+    float: none;
+    height: auto;
+    margin-top: 24px;
+    text-align: left;
+    width: 50%;
 }
 
 dt label {
+    color: #A2AAAF;
+    font-family: 'Open Sans';
+    font-size: 12px;
     font-weight: 500;
+    padding-bottom: 22px;
+}
+
+#logoDetails {
+    width: auto;
+    padding: 20px 40px;
+    font-size: 14px;
+}
+
+input:focus {
+    border-bottom: 2px solid #2D8ED9;
+}
+
+#fieldset-description textarea {
+    border: 1px solid #5B6770;
+    width: 50%;
+}
+
+#fieldset-description textarea:focus {
+    background: #fff;
+    border: 2px solid #2D8ED9;
+}
+
+#feedbackUpload-label {
+    margin-top: 0px;
+}
+
+form#feedbackForm fieldset#feedbackUploadFieldSet {
+    padding-bottom: 16px;
+}
+
+input#feedbackUpload {
+    background: none;
+    border: none;
+    box-shadow: none;
+    font: normal 12px 'Open Sans';
+    padding: 0px;
+}
+
+#sendFeedback-label {
+    display: none;
+}
+
+#sendFeedback-element {
+    padding-bottom: 40px;
+}
+
+input#sendFeedback {
+    border-radius: 3px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    padding: 0px;
+}
+
+input#sendFeedback.focus {
+    border: none;
+    background: #0074CD;
 }
 
