@@ -218,6 +218,8 @@ body {
     background: none;
     border: 0;
     margin: 0px 16px 0px 0px;
+    position: relative;
+    right: 152px;
 }
 
 #reportHeaderButtons div {
@@ -290,7 +292,6 @@ body {
 .reportHeaderButtonsMenu a:hover {
     text-decoration: none;
     background: #DEEDFA;
-    color: #2D8ED9;
 }
 
 #reportHeaderButtonsExport {
@@ -329,6 +330,7 @@ body {
 div.znr-checkbox-cont li {
     width: 24px;
 }
+
 
 
 
@@ -479,8 +481,11 @@ div.znr-checkbox-cont li {
 #show-hide-filter-form {}
 
 #DIV_CONTROL_TAG {
-    width: calc(100% - 80px);
-    margin: 40px 40px 0px 40px;
+    width: 128px;
+    position: absolute;
+    right: 0px;
+    top: 68px;
+    margin-right: 40px;
 }
 
 #GPS_AUDIT_REPORT_CLASS_FORM, #insp_form {
@@ -491,6 +496,7 @@ div.znr-checkbox-cont li {
 }
 
 .maxBorder, .minBorder {
+    height: 56px;
     background: #49555E;
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
@@ -498,8 +504,12 @@ div.znr-checkbox-cont li {
     transition: background 0.3s;
 }
 
+.maxBorder tbody tr td:first-child, .minBorder tbody tr td:first-child {
+    padding-right: 0px;
+}
+
 .minBorder {
-    background: #293239;
+    background: #2D8ED9;
 }
 
 .maxBorder:hover {
@@ -511,20 +521,14 @@ div.znr-checkbox-cont li {
     padding: 12px;
 }
 
-.maxBorder tbody tr td a, .minBorder tbody tr td a {
-    color: #7BBBEC;
+.maxBorder tbody tr td a {
+    color: #F3F4F5;
     text-decoration: none;
 }
 
-.maxBorder tbody tr td a:hover, .minBorder tbody tr td a:hover {
-    text-decoration: underline;
-}
-
-#mapTable {
-    border: 0;
-    margin: 0px;
-    font-size: 14px;
-    color: #293239;
+.minBorder tbody tr td a {
+    color: #F3F4F5;
+    text-decoration: none;
 }
 
 td.innerFormTableCell strong {
@@ -536,6 +540,12 @@ td.innerFormTableCell strong {
 select {
     font-size: 14px;
     font-family: 'Open Sans', sans-serif;
+}
+
+table.minBorder tbody tr td img, table.maxBorder tbody tr td img {
+    height: 0px;
+    width: 0px;
+    overflow: hidden;
 }
 
 
@@ -708,3 +718,8 @@ td strong a:hover {
 #auditReport {
     margin-top: 0px;
 }
+
+#mapTable {
+    border: 0;
+}
+

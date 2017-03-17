@@ -218,6 +218,8 @@ body {
     background: none;
     border: 0;
     margin: 0px 16px 0px 0px;
+    position: relative;
+    right: 152px;
 }
 
 #reportHeaderButtons div {
@@ -468,6 +470,83 @@ div.znr-checkbox-cont li {
 }
 
 
+
+
+
+
+
+
+
+
+#show-hide-filter-form {}
+
+#DIV_CONTROL_TAG {
+    width: 128px;
+    position: absolute;
+    right: 0px;
+    top: 68px;
+    margin-right: 40px;
+}
+
+#GPS_AUDIT_REPORT_CLASS_FORM, #insp_form {
+    width: calc(100% - 128px);
+    margin: 0px 40px;
+    padding: 24px;
+    background: #FFF;
+}
+
+.maxBorder, .minBorder {
+    height: 56px;
+    background: #49555E;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    border: 0;
+    transition: background 0.3s;
+}
+
+.maxBorder tbody tr td:first-child, .minBorder tbody tr td:first-child {
+    padding-right: 0px;
+}
+
+.minBorder {
+    background: #2D8ED9;
+}
+
+.maxBorder:hover {
+    background: #293239;
+    transition: background 0.3s;
+}
+
+.maxBorder tbody tr td, .minBorder tbody tr td {
+    padding: 12px;
+}
+
+.maxBorder tbody tr td a {
+    color: #F3F4F5;
+    text-decoration: none;
+}
+
+.minBorder tbody tr td a {
+    color: #F3F4F5;
+    text-decoration: none;
+}
+
+td.innerFormTableCell strong {
+    color: #A2AAAF;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+select {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+table.minBorder tbody tr td img, table.maxBorder tbody tr td img {
+    height: 0px;
+    width: 0px;
+    overflow: hidden;
+}
 
 
 
@@ -795,15 +874,6 @@ tr.header td {
     font-size: 14px;
 }
 
-.columnTitles td:first-child {
-    width: 4%;
-    text-indent: 12px;
-}
-
-.report tr td:first-child {
-    text-indent: 12px;
-}
-
 .report tr:nth-child(1n+6) {
     background: #F3F4F5;
     transition: background 0.3s;
@@ -821,4 +891,64 @@ tr.header td {
 
 .evirheader td:first-child {
     background: none;
+}
+
+#insp_form form table.report {
+    margin-top: 0px;
+}
+
+table.reportopts {
+    font-family: 'Open Sans', sans-serif;
+    color: #A2AAAF;
+    font-size: 12px;
+}
+
+table.reportopts td, table.reportopts th {
+    padding: 0px;
+}
+
+table.reportopts tr {
+    height: auto;
+    font-size: 12px;
+}
+
+table.reportopts tr td {
+    vertical-align: top;
+}
+
+table.reportopts select {
+    margin-bottom: 24px;
+    width: 320px;
+}
+
+table.reportopts input {
+    margin-bottom: 24px;
+    width: 120px;
+}
+
+.ui-datepicker-trigger {
+    margin: 0px 16px 24px 4px;
+    position: relative;
+    top: -4px;
+}
+
+select#from_hour, select#from_min {
+    width: 60px;
+}
+
+#multi_head {
+    width: 320px;
+    color: #293239;
+}
+
+.tree {
+    min-width: 320px;
+}
+
+table.report input {
+    width: 240px;
+}
+
+input#from_date {
+    width: 120px;
 }
