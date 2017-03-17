@@ -217,7 +217,7 @@ body {
     width: 168px;
     background: none;
     border: 0;
-    margin: 0px 16px 0px 0px;
+    margin: 0px 140px 0px 0px;
 }
 
 #reportHeaderButtons div {
@@ -304,7 +304,7 @@ body {
     font-size: 14px;
     color: #A2AAAF;
     line-height: 60px;
-    right: 224px;
+    right: 326px;
 }
 
 #accuracyLink span {
@@ -480,66 +480,6 @@ div.znr-checkbox-cont li {
 
 
 
-#show-hide-filter-form {}
-
-#DIV_CONTROL_TAG {
-    width: calc(100% - 80px);
-    margin: 40px 40px 0px 40px;
-}
-
-#GPS_AUDIT_REPORT_CLASS_FORM, #insp_form {
-    width: calc(100% - 128px);
-    margin: 0px 40px;
-    padding: 24px;
-    background: #FFF;
-}
-
-.maxBorder, .minBorder {
-    background: #49555E;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-    border: 0;
-    transition: background 0.3s;
-}
-
-.minBorder {
-    background: #293239;
-}
-
-.maxBorder:hover {
-    background: #293239;
-    transition: background 0.3s;
-}
-
-.maxBorder tbody tr td, .minBorder tbody tr td {
-    padding: 12px;
-}
-
-.maxBorder tbody tr td a, .minBorder tbody tr td a {
-    color: #7BBBEC;
-    text-decoration: none;
-}
-
-.maxBorder tbody tr td a:hover, .minBorder tbody tr td a:hover {
-    text-decoration: underline;
-}
-
-#mapTable {
-    border: 0;
-    margin: 0px;
-    font-size: 14px;
-    color: #293239;
-}
-
-td.innerFormTableCell strong {
-    color: #A2AAAF;
-    font-size: 12px;
-    font-weight: 400;
-}
-
-select {
-    font-family: 'Open Sans', sans-serif;
-}
 
 
 
@@ -830,9 +770,10 @@ strong {
     min-width: 320px;
     opacity: 1;
     right: auto;
-    left: 680px;
+    top: 160px;
+    left: 264px;
     padding: 16px;
-    box-shadow: 0 1px 5px 0 rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.12);
+    box-shadow: 0 5px 5px -3px rgba(0,0,0,.2), 0 8px 10px 1px rgba(0,0,0,.14), 0 3px 14px 2px rgba(0,0,0,.12);
 }
 
 .geocoder-header {
@@ -1011,3 +952,68 @@ table.report tbody tr:nth-child(even):hover, table.report tbody tr:nth-child(odd
     background: #DEEDFA;
     transition: background 0.3s;
 }
+
+
+
+#reposition-map-and-filters {}
+
+#controlPanel {
+    left: auto;
+    right: 0;
+    width: 240px;
+    position: initial;
+    float: right;
+}
+
+#mapHeader {
+    margin-left: 0px;
+    position: relative;
+}
+
+#mapdiv {
+    margin-left: 0px;
+    position: relative;
+}
+
+.ctrl-pnl-toggle {
+    opacity: 1;
+    position: absolute;
+    right: 0px;
+    top: 68px;
+    height: 56px;
+    width: 75px;
+    padding: 0px 12px;
+    margin-right: 40px;
+    background-image: url(https://dl.dropbox.com/s/1zoq5w7pu3637ro/ic_filter.png);
+    background-color: #49555E;
+    background-repeat: no-repeat;
+}
+
+.ctrl-pnl-toggle:hover {
+    background-color: #293239;
+}
+
+#controlPanel.hide {
+    width: 0px;
+}
+
+table#innerMapTable {
+    border: 0;
+}
+
+#controlPanelMain {
+    position: initial;
+}
+
+#viewport {
+    position: initial;
+}
+
+
+
+
+
+
+
+
+
