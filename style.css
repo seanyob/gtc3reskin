@@ -473,6 +473,7 @@ input {
     border-bottom: 1px solid #293239;
     color: #293239;
     font-size: 14px;
+    min-width: 480px;
     width: 50%;
 }
 
@@ -541,6 +542,10 @@ td.innerFormTableCell strong {
 }
 
 select {
+    border-radius: 0px;
+    height: 2.25em;
+    margin-top: 4px;
+    max-width: 320px;
     width: 50%;
 }
 
@@ -772,7 +777,7 @@ form#feedbackForm legend {
     background: none;
     color: #293239;
     font-size: 16px;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 dt {
@@ -803,6 +808,7 @@ input:focus {
 
 #fieldset-description textarea {
     border: 1px solid #5B6770;
+    min-width: 480px;
     width: 50%;
 }
 
