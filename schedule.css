@@ -1,0 +1,705 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: #5B6770;
+    min-width: 0px;
+}
+
+.logoHeader, #menuBody, #reportHeaderTitleIcon, #loginTitle, .label {
+    height: 0px;
+    width: 0px;
+    overflow: hidden;
+}
+
+#main {
+    margin: 0px;
+    background-color: #5B6770;
+}
+
+#pagebody {
+    margin: 0px;
+    padding: 0px;
+    background-color: #5B6770;
+    min-width: 0px;
+}
+
+
+
+
+
+
+
+#universal-header-and-nav {}
+
+#header {
+    height: 68px;
+    background: #FFF;
+}
+
+.logoGTC {
+    background: none;
+    width: 0px;
+    height: 0px;
+    overflow: hidden;
+}
+
+.logoZonar {
+    background-image: url(https://dl.dropbox.com/s/tt2pgnhn6u10x0i/gtc_logo.png);
+    background-repeat: no-repeat;
+    background-position-x: 40px;
+}
+
+.logoHeader {
+    width: 340px;
+    height: 100%;
+}
+
+#logoDetails {
+    width: auto;
+    padding: 20px 40px;
+    font-size: 14px;
+}
+
+#logoDetails div {
+    display: inline-block;
+    float: right;
+}
+
+#headMenu {
+    width: 194px;
+}
+
+#detailsUser {
+    color: #293239;
+}
+
+#headSubMenu li {
+    width: 24px;
+    height: 24px;
+    margin-left: 32px;
+}
+
+#headSubMenu li:nth-child(3) { background: url(https://dl.dropbox.com/s/o5hryp1v9j3uq5p/ic_help.png) no-repeat; }
+#headSubMenu li:nth-child(5) { background: url(https://dl.dropbox.com/s/fj3pci1dgcs4d5o/ic_feedback.png) no-repeat; }
+#headSubMenu li:last-child { background: url(https://dl.dropbox.com/s/hcd29wtmqqskunq/ic_logout.png) no-repeat; }
+
+#headSubMenu li a {
+    color: #FFF;
+    opacity: 0;
+}
+
+#headSubMenu li:nth-child(even), #headSubMenu li:first-child   {
+    height: 0px;
+    width: 0px;
+    overflow: hidden;
+}
+
+#main-menu-reposition {}
+
+#menuBody {
+    height: 0px;
+}
+
+#menuOpts {
+    width: 0px;
+    height: 0px;
+    overflow: hidden;
+}
+
+#subMenu {
+    position: absolute;
+    float: none;
+    top: 0px;
+    left: calc(50% - 280px);
+    height: 48px;
+    padding-top: 20px;
+}
+
+.sf-menu {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.sf-menu a {
+    color: #2D8ED9;
+    font-size: 16px;
+}
+
+.sf-menu li {
+    margin-right: 12px;
+}
+
+.sf-menu li:last-child {
+    margin-right: 0px;
+}
+.sf-menu li.dashmenu>a {
+    text-transform: capitalize;
+    height: 26px;
+}
+
+.sf-menu li.dashmenu>a:hover {
+    border-bottom: 4px solid #2D8ED9;
+}
+
+.sf-menu li a:hover {
+    background: #FFF;
+}
+
+.sf-menu a.activeMenu {
+    background: none;
+    border-bottom: 4px solid #2D8ED9;
+}
+
+.icon24 {
+    width: 0px;
+    height: 0px;
+    overflow: hidden;
+}
+
+.sf-menu li ul {
+    background: #FFF;
+    top: 44px;
+    padding: 16px;
+    border: 0px;
+    border-radius: 0px;
+    box-shadow: 0 8px 10px -5px rgba(0,0,0,.2), 0 16px 24px 2px rgba(0,0,0,.14), 0 6px 30px 5px rgba(0,0,0,.12);
+}
+
+.sf-menu li ul:last-child {
+    padding-bottom: 0px;
+}
+
+.sf-menu li ul li {
+    margin-bottom: 12px;
+}
+
+#top_reports ul li ul, #cat_assets ul li ul, #top_admin ul li ul {
+    top: 0px;
+}
+
+.sf-menu li ul li.hasIcon a {
+    text-indent: 0px;
+}
+
+.sf-sub-indicator {
+    right: 4px;
+}
+
+
+
+
+
+
+
+#unverisal-subhead {}
+
+#reportHeader {
+    border: 0;
+    background-image: none;
+    background: #49555E;
+    height: 56px;
+    min-width: 0px;
+}
+
+#reportHeaderTitle {
+    width: auto;
+    margin-right: 36px;
+}
+
+#reportHeaderTitleText {
+    font-family: 'Open Sans', sans-serif;
+    color: #D0D3D5;
+    margin: 16px 40px;
+    font-weight: 400;
+}
+
+#reportHeaderButtons {
+    width: 168px;
+    background: none;
+    border: 0;
+    margin: 0px 16px 0px 0px;
+    position: relative;
+    right: 92px;
+}
+
+#reportHeaderButtons div {
+    height: 56px;
+    width: 56px;
+    margin: 0;
+}
+
+#reportHeaderButtons div#reportPrintButton, #reportHeaderButtons div#reportPrintButton.closed, #reportHeaderButtons div#reportPrintButton.closed:hover, #reportHeaderButtons div#reportPrintButton.opened, #reportHeaderButtons div#reportPrintButton.opened:hover, #reportHeaderButtons div#reportExportButton, #reportHeaderButtons div#reportExportButton.closed, #reportHeaderButtons div#reportExportButton.closed:hover, #reportHeaderButtons div#reportExportButton.opened, #reportHeaderButtons div#reportExportButton.opened:hover, #reportHeaderButtons div#reportHelpButton, #reportHeaderButtons div#reportHelpButton.closed, #reportHeaderButtons div#reportHelpButton.closed:hover, #reportHeaderButtons div#reportHelpButton.opened, #reportHeaderButtons div#reportHelpButton.opened:hover {
+    background-position: 0px 0px;
+    opacity: 0.3;
+}
+
+#reportHeaderButtons div#reportHelpButton, #reportHeaderButtons div#reportExportButton, #reportHeaderButtons div#reportPrintButton {
+    width: 56px;
+    background-color: #49555E;
+    transition: background-color 0.3s;
+}
+
+#reportHeaderButtons div#reportHelpButton { background-image: url(https://dl.dropbox.com/s/i0k8w9x0zqb3y2o/subnav_help.png); }
+#reportHeaderButtons div#reportExportButton { background-image: url(https://dl.dropbox.com/s/jow8woyxfpqdcy0/subnav_export.png); }
+#reportHeaderButtons div#reportPrintButton { background-image: url(https://dl.dropbox.com/s/duavj3xr53jjruq/subnav_print.png); }
+
+#reportHeaderButtons div#reportHelpButton.closed, #reportHeaderButtons div#reportExportButton.closed, #reportHeaderButtons div#reportPrintButton.closed {
+    opacity: 1;
+}
+
+#reportHeaderButtons div#reportHelpButton.closed:hover, #reportHeaderButtons div#reportPrintButton.closed:hover, #reportHeaderButtons div#reportExportButton.closed:hover {
+    background-color: #293239;
+    opacity: 1;
+    transition: background-color 0.3s;
+}
+
+#reportHeaderButtons div#reportHelpButton.opened, #reportHeaderButtons div#reportPrintButton.opened, #reportHeaderButtons div#reportExportButton.opened {
+    background-color: #2D8ED9;
+    transition: background-color 0.3s;
+    opacity: 1;
+}
+
+#reportHeaderButtons div#reportHelpButton.opened:hover, #reportHeaderButtons div#reportPrintButton.opened:hover, #reportHeaderButtons div#reportExportButton.opened:hover {
+    background-color: #2D8ED9;
+}
+
+.reportHeaderButtonsMenu {
+    background: #FFF;
+    font-size: 0px;
+    font-weight: 400;
+    padding: 0px;
+    margin: 0px;
+    border: 0;
+    top: 124px;
+    min-width: 220px;
+    text-align: center;
+    right: 16px;
+    box-shadow: 0 5px 5px -3px rgba(0,0,0,.2), 0 8px 10px 1px rgba(0,0,0,.14), 0 3px 14px 2px rgba(0,0,0,.12);
+}
+
+.reportHeaderButtonsMenu a {
+    float: left;
+    clear: both;
+    font-size: 14px;
+    padding: 16px;
+    margin: 0px;
+    width: 100%;
+    text-align: left;
+    width: calc(100% - 32px);
+    color: #293239;
+}
+
+.reportHeaderButtonsMenu a:hover {
+    text-decoration: none;
+    background: #DEEDFA;
+}
+
+#reportHeaderButtonsExport {
+    right: 75px;
+}
+
+#reportHeaderButtonsPrint {
+    right: 125px;
+}
+
+#accuracyLink {
+    font-size: 14px;
+    color: #A2AAAF;
+    line-height: 60px;
+    right: 224px;
+}
+
+#accuracyLink span {
+    color: #7BBBEC;
+    text-decoration: none;
+}
+
+#accuracyLink span:hover {
+    text-decoration: underline;
+}
+
+#dispController {
+    width: 180px;
+    margin: 12px;
+}
+
+#dispController button span.disp-label {
+    width: 80%;
+}
+
+div.znr-checkbox-cont li {
+    width: 24px;
+}
+
+
+
+
+
+#universal-footer {}
+
+#footer {
+    height: 100px;
+    padding: 20px 0px;
+    margin-top: 80px;
+    background-image: url(https://dl.dropbox.com/s/95jljql3r3a3avl/footer_logo.png);
+    background-color: #49555E;
+    background-repeat: no-repeat;
+    background-position: middle left;
+}
+
+#footer div {
+    background: none;
+    color: #A2AAAF;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+#footerLeft {
+    text-align: center;
+    position: absolute;
+    left: calc(50% - 200px);
+}
+
+#footerLeft a {
+    color: #F3F4F5;
+    text-decoration: none;
+}
+
+#footerLeft a:hover {
+    text-decoration: underline;
+}
+
+#footerRight {
+    margin-right: 40px;
+}
+
+.ui-dialog {
+    border: 0;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    padding: 0px;
+    box-shadow: 0 8px 10px -5px rgba(0,0,0,.2), 0 16px 24px 2px rgba(0,0,0,.14), 0 6px 30px 5px rgba(0,0,0,.12);
+    font-family: 'Open Sans', sans-serif;
+    min-width: 420px;
+}
+
+.ui-dialog-content {
+    padding: 24px;
+}
+
+.ui-dialog-titlebar {
+    padding: 20px;
+    margin: 0px;
+    font-size: 16px;
+}
+
+.ui-widget-header {
+    background: #0074CD;
+    border: 0;
+}
+
+.ui-dialog-titlebar-close {
+    background: url(https://dl.dropbox.com/s/evvz529rlfly6a1/ic_close.png) no-repeat;
+    height: 20px;
+    width: 20px;
+    margin-right: 12px;
+}
+
+.ui-dialog-titlebar .ui-icon-closethick {
+    background: none;
+}
+
+.ui-dialog select {
+    width: 240px;
+    height: 32px;
+}
+
+.settingUpBtn input {
+    background: #2D8ED9;
+    border: 0;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+    font-family: 'Open Sans', sans-serif;
+    color: #F3F4F5;
+    font-size: 14px;
+    height: 36px;
+    width: 240px;
+    box-shadow: 0 1px 5px 0 rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.12);
+    transition: all 0.5s;
+}
+
+.settingUpBtn input:hover {
+    box-shadow: 0 5px 5px -3px rgba(0,0,0,.2), 0 8px 10px 1px rgba(0,0,0,.14), 0 3px 14px 2px rgba(0,0,0,.12);
+    transition: all 0.3s;
+}
+
+#SettingUpHldr div, #SettingLoader div, #SettingSuccess div {
+    padding: 8px;
+}
+
+.ui-corner-all, .ui-corner-top, .ui-corner-right, .ui-corner-left, .ui-corner-bottom, .ui-corner-tr {
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -khtml-border-radius: 0px;
+    border-radius: 0px;
+
+}
+
+@media only screen and (max-width: 860px) {
+
+    #footer {
+        background-position-x: calc(50% - 10px);
+        background-position-y: -20px;
+        height: 300px !important;
+    }
+
+    #footerLeft {
+        padding-top: 80px;
+    }
+
+    #footerRight {
+        padding-top: 200px;
+        margin-right: 0px;
+        text-align: center;
+        position: absolute;
+        left: calc(50% - 200px);
+        margin-bottom: 20px;
+    }
+
+}
+
+
+
+
+
+
+#accuracyBlockBG {
+    opacity: 0.9;
+    background-color: #5B6770;
+    box-shadow: 0 11px 15px -7px rgba(0,0,0,.2), 0 24px 38px 3px rgba(0,0,0,.14), 0 9px 46px 8px rgba(0,0,0,.12);
+}
+
+#accuracyBlock {
+    border: 0;
+    border-radius: 0;
+    padding: 16px 24px;
+    box-shadow: 0 11px 15px -7px rgba(0,0,0,.2), 0 24px 38px 3px rgba(0,0,0,.14), 0 9px 46px 8px rgba(0,0,0,.12);
+}
+
+#accuracyBlock .abTtlRow {
+    font-size: 24px;
+}
+
+
+
+
+
+
+
+#gpsUnitHealthRpt {
+    margin: 0px 40px;
+    width: calc(100% - 80px);
+    min-width: 0px;
+    font-family: 'Open Sans', sans-serif;
+    background: #5B6770;
+    font-size: 14px;
+}
+
+#frmTgl {
+    background: #2D8ED9;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    padding: 12px;
+    height: 32px;
+    border: 0;
+    color: #F3F4F5;
+    font-weight: 400;
+    margin-right: 40px;
+    width: 44px;
+    position: absolute;
+    right: 0px;
+    top: 68px;
+    transition: background 0.3s;
+}
+
+#frmTgl .arrow_tgl {
+    height: 0px;
+    width: 0px;
+    overflow: hidden;
+}
+
+#frmTgl.frm_close:hover {
+    background: #293239;
+    transition: background 0.3s;
+}
+
+#frmTgl.frm_close {
+    background: #49555E;
+    border: 0;
+    transition: background 0.3s;
+}
+
+#formFilters {
+    background: #FFF;
+}
+
+.znr-btn-primary, .znr-btn-secondary {
+    border: 0;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    height: 36px;
+    width: 206px;
+    box-shadow: 0 1px 5px 0 rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.12);
+    margin-top: 24px;
+    transition: all 0.5s;
+}
+
+.znr-btn-primary:hover, .znr-btn-secondary:hover {
+    box-shadow: 0 5px 5px -3px rgba(0,0,0,.2), 0 8px 10px 1px rgba(0,0,0,.14), 0 3px 14px 2px rgba(0,0,0,.12);
+    transition: all 0.3s;
+}
+
+.znr-btn-primary {
+    background: #2D8ED9;  
+    color: #F3F4F5;
+}
+
+.znr-btn-secondary {
+    background: #F3F4F5;
+    color: #5B6770;
+    margin-top: 0px;
+}
+
+.znr-btn-primary:hover {
+    background: #0074CD;
+}
+
+
+
+
+table#reportGrid tbody tr {
+    background: #F3F4F5;
+    transition: background 0.3s;
+}
+
+table#reportGrid tbody tr:nth-child(even) {
+    background: #E2E4E6;
+    transition: background 0.3s;
+}
+
+table#reportGrid tbody tr:hover, table#reportGrid tbody tr:nth-child(even):hover {
+    background: #DEEDFA;
+    transition: background 0.3s;
+}
+
+.ui-jqgrid tr.jqgrow td {
+    border: 0;
+    height: 36px;
+}
+
+.ui-jqgrid-btable {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+table#reportGrid tbody tr td:first-child {
+    text-indent: 16px;
+}
+
+#fixedGap {
+    height: 0px;
+}
+
+#hdPgrFixed {
+    height: auto;
+}
+
+.ui-jqgrid .ui-jqgrid-htable th div {
+    background: #B1B8BD;
+    height: 36px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #293239;
+    font-weight: 700;
+    padding-top: 12px;
+}
+
+
+
+
+
+
+#schedule-report-specific {}
+
+#reportHldr {
+    margin: 40px;
+    width: calc(100% - 80px);
+}
+
+#report-filters {
+    background: #FFF;
+    width: calc(100% - 128px);
+    margin: 0px 40px;
+    padding: 24px;
+}
+
+.by-asset, .by-zone {
+    margin-top: 0px;
+}
+
+.znr-btn-small {
+    width: 80px;
+    height: 32px;
+}
+
+.znr-btn-small:first-child {
+    border-radius: 3px 0px 0px 3px;
+}
+
+.znr-btn-small:last-child {
+    border-radius: 0px 3px 3px 0px;
+}
+
+#report-type-hldr {
+    height: 0px;
+}
+
+.report-m-jqgrid-bdy {
+    border: 0;
+}
+
+.m-jqgrid {
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.m-jqgrid .m-jqgrid-btable td {
+    border: 0;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.m-jqgrid .m-jqgrid-btable tr {
+    height: 36px;
+    background: #F3F4F5;
+    transition: background 0.3s;
+}
+
+.m-jqgrid .m-jqgrid-btable tr:nth-child(even) {
+    height: 36px;
+    background: #E2E4E6;
+    transition: background 0.3s;
+}
+
+.m-jqgrid .m-jqgrid-btable tr:hover {
+    background: #DEEDFA;
+    transition: background 0.3s;
+}
+
+
+
