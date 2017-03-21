@@ -631,3 +631,83 @@ table#reportGrid tbody tr td:first-child {
     margin-top: 40px;
 }
 
+.ui-widget {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default {
+    border: 0px;
+}
+
+.ui-jqgrid .ui-jqgrid-hbox {
+    padding-right: 0px;
+}
+
+.ui-jqgrid .ui-jqgrid-htable th {
+    padding: 0px;
+}
+
+.ui-th-column, .ui-jqgrid .ui-jqgrid-htable th.ui-th-column {
+    background: none;
+}
+
+#btnGrp {
+    height: 0px;
+}
+
+.ui-jqgrid-htable thead {
+    font-size: 0px;
+}
+
+
+
+
+
+#asset-info-box, #threshEditor {
+    border: 0px;
+    box-shadow: 0 8px 10px -5px rgba(0,0,0,.2), 0 16px 24px 2px rgba(0,0,0,.14), 0 6px 30px 5px rgba(0,0,0,.12);
+    border-radius: 0px;
+    padding: 0px;
+}
+
+#asset-info-box .btn_close, #threshEditor .btn-close {
+    background: url(https://dl.dropbox.com/s/gi2pv23u0na7dqx/ic_close_white_20px.png);
+    width: 20px;
+    height: 20px;
+    right: 24px;
+    top: 24px;
+}
+
+#asset-info-box .aib-btn-row {
+    padding: 0px;
+    height: 0px;
+    overflow: hidden;
+}
+
+#asset-info-box .aib-title, #threshEditor .dia-title {
+    font-size: 24px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    background: #0074CD;
+    color: #F3F4F5;
+    padding: 20px 40px;
+}
+
+#asset-info-box .aib-defect-icon, #asset-info-box .aib-status-icon {
+    margin: 8px 0px 0px 6px;
+}
+
+#asset-info-box .aib-data, #threshEditor .dia-form {
+    padding: 24px 40px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#threshEditor .dia-form .frm_col {
+    width: 40%;
+}
+
+
+
+
+
