@@ -474,6 +474,7 @@ input {
     border-bottom: 1px solid #293239;
     color: #293239;
     font-size: 14px;
+    max-width: 640px;
     min-width: 480px;
     width: 50%;
 }
@@ -724,8 +725,13 @@ td strong a:hover {
     text-indent: 0px;
 }
 
-.FEEDBACK FORM {
-}
+
+
+
+
+
+
+/**     .FEEDBACK FORM {}      **/
 
 .formControl {
     background: #fff;
