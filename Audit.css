@@ -1,28 +1,14 @@
-#audit-report-fixs {}
-
-td strong a {
-    text-decoration: none;
-    color: #0074CD;
+#DIV_CONTROL_TAG {
+	margin-top: 40px !important;
 }
 
-td strong a:hover {
-    text-decoration: underline;
+.maxBorder tbody tr td a:hover, .minBorder tbody tr td a:hover {
+	text-decoration: none;
 }
 
-#auditReport tbody tr:last-child {
-    height: 48px;
-    background: #FFF;
+table.report {
+	width: calc(100% - 80px);
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	color: #293239;
 }
-
-#auditReport tbody tr:last-child td:first-child {
-    text-indent: 16px;
-}
-
-#auditReport {
-    margin-top: 0px;
-}
-
-#mapTable {
-    border: 0;
-}
-
